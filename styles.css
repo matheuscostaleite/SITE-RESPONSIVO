@@ -9,11 +9,20 @@
     --cor-de-fundo: #EBECEE;
     --branco: #8d8383;
     --laranja: #00c3ff;
-    --azul-degrade: linear-gradient(97.54deg, #0a38ce 35.49%, #290bd6d3 165.37%);
+    --azul-degrade: linear-gradient(97.54deg, #590496 35.49%, #5b00b0d3 165.37%);
     --fonte-principal: "Poppins";
-    --azul: #093fb4;
+    --azul: #590089;
 }
-
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco:	#FFFFFF;
+    --laranja:	#00d0ff;
+    --azul-degrade: linear-gradient(97.54deg, #41008b 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul:	#5b0082;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;|
+}
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);

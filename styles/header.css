@@ -56,4 +56,60 @@
 
 .container__botao {
     display: none;
+}conosco.
+    {display: none;
+ }
+@media screen and (min-width: 1024px) {}
+
+    .container_titulo,
+    .opções {
+        display: none
+    }
+    .container_titulo--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+    }
+    
+    .container_titulo {
+        font-weight: 400;
+    }
+    .container_titulo--negrito 
+        font-weight: 700;
+.container_titulo {
+       font-weight: 400;
+       display: block;
+   }
+.opções {
+    display: flex
+}
+.opções {
+    display: flex;
+}
+
+.opções_item {
+    padding: 0 1em;
+    text-transform: uppercase;
+}
+.opções__link {
+    text-decoration: none
+}
+.opções__link {
+    text-decoration: none
+    color: var(--preto)
+}
+container__imagem-transparente {
+    display: none;
+}
+.cabeçalho_menu-hamburguer {
+    display: none;
+}
+.opções_botão:checked~.lista-menu {
+    display: block;
+}
+.opções_botão:checked~.lista-menu {
+    display: block;
+    width: auto;
+}
+.opções__botão {
+    display: none;
 }
